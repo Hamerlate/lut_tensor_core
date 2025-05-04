@@ -1,11 +1,11 @@
-# lut_tensor_core
+# LUT Tensor Core
 
-## hw:sv_lut_array
-to run the hardware sythesis result, 
-set your own design compiler path and tsmc library path in ./scripts/dc.tcl
+## Hardware: `sv_lut_array`
+We provide a LUT-based array design.  
+To run hardware synthesis, please configure your own Design Compiler path and TSMC library path in `./scripts/dc.tcl`.
 
-## accel-sim
+## Accelerator Simulator (`accel-sim`)
+A tuned configuration for the NVIDIA A100 GPU is provided.
 
-
-## ene-to-end simulator: please kindly wait for your next work
-
+## End-to-End Simulator
+Coming soon — please wait for our next work.

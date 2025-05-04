@@ -1,6 +1,5 @@
-## How to run sythethis
+## How to Run Synthesis
 
-1. enter dc_shell in the terminal
-2. enter scripts menu
-3. enter source dc.tcl
-
+1. Open a terminal and launch `dc_shell`.
+2. Navigate to the `scripts` directory.
+3. Run the following command to start synthesis:  `source dc.tcl`

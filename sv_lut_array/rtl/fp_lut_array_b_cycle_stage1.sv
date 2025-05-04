@@ -1,9 +1,7 @@
-// 导入Parameters包
-// import Parameters::*;
 
 module fp_lut_array_b_cycle_stage1#(
     // 使用Parameters包中的参数作为默认参数值
-    parameter SIG_WIDTH = 10,
+    parameter SIG_WIDTH = 10, 
     parameter EXP_WIDTH = 5,
     parameter IEEE_COMPLIANCE = 0,
     parameter A_LUT_BIT = SIG_WIDTH+EXP_WIDTH+1,
