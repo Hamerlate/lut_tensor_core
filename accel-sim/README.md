@@ -36,7 +36,7 @@ This directory provides simulation configurations and workflows for evaluating L
 
 1. Tensor Core Throughput
 
-   The A100 GPU includes four 8-4-8 tensor cores per cycle. For HMMA instructions using the 16-8-16 data format, the initiation interval (II) is 8 cycles. We adjusted the `trace.config` file to reflect this timing behavior, allowing for more accurate latency simulation.
+   The A100 GPU includes four 8-4-8 tensor cores. For HMMA instructions using the 16-8-16 instruction size, the initiation interval (II) is 8 cycles. We adjusted the `trace.config` file to reflect this timing behavior.
 
 2. L2 Cache Behavior
 
