@@ -12,7 +12,7 @@ To run synthesis:
 ## Accelerator Simulator: `accel-sim`
 Includes a customized configuration targeting NVIDIA A100 GPUs.
 
-For tuning details and simulation workflow, see `accel-sim/README.md` and `accel-sim/flow/README.md`.
+For tuning details and simulation workflow, see `accel-sim/README.md`.
 
 ## End-to-End Simulator
 To be released in our upcoming work.
