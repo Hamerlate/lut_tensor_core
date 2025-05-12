@@ -1,11 +1,18 @@
 # LUT Tensor Core
 
-## Hardware: `sv_lut_array`
-We provide a LUT-based array design.  
-To run hardware synthesis, please configure your own Design Compiler path and TSMC library path in `./scripts/dc.tcl`.
+This repository provides code for exploring LUT-based tensor core acceleration, including hardware synthesis and GPU-based simulation.
 
-## Accelerator Simulator (`accel-sim`)
-A tuned configuration for the NVIDIA A100 GPU is provided.
+## Hardware: `sv_lut_array`
+A synthesizable LUT-based tensor core array design.
+
+To run synthesis:
+- Set your own Design Compiler and TSMC library paths in `./scripts/dc.tcl`.
+- Follow the instructions in the `sv` directory.
+
+## Accelerator Simulator: `accel-sim`
+Includes a customized configuration targeting NVIDIA A100 GPUs.
+
+For tuning details and simulation workflow, see `accel-sim/README.md` and `accel-sim/flow/README.md`.
 
 ## End-to-End Simulator
-Coming soon — please wait for our next work.
+To be released in our upcoming work.
