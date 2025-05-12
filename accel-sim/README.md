@@ -124,4 +124,4 @@ See the `flow` directory for automation scripts and examples.
      -config ./gpu-simulator/configs/tested-cfgs/xxxxx/trace.config \
      > xxx.log 2>&1
 
-Replace `xxxxx` with your selected configuration directory. Simulation logs will be saved in `xxx.log`.
+Replace `xxxxx` with your selected configuration directory. 
